@@ -3,55 +3,83 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sophie Anderson | Home</title>
+  <meta name="description" content="Student based in Bath and Frome, UK. Digital marketing, 3D modelling, web development and more. View Sophie Anderson's portfolio.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <header>
-    <h1>Sophie Anderson</h1>
-    <button><a href="portfolio.html">View Portfolio</a></button>
-  </header>
+    <header>
+      <h1>Sophie Anderson</h1>
+      <button><a href="portfolio.html">View Portfolio</a></button>
+    </header>
   <main>
     <a href="#experience">
       <p3>Go to experience</p3>
     </a>
-    <div class="flex-container">
-      <div class="flex-box-image">
-        <img src="selfie.jpg" alt="selfie" width="300">
+    <div class="flex-column-container">
+      <div class="row">
+        <div class="col-xl-3">
+          <img src="selfie.jpg" alt="Photo of Sophie" width="300">
+        </div>
+        <div class="col-xl-9">
+          <div class="flex-box-about">
+          <h2>About Me</h2>
+          <p1>Hi! I'm Sophie, I'm currently taking part in the Clickstart course at Bath Spa. I have experience with
+            building websites, and I'm excited to be learning even more! I'm a creative, hardworking, and driven
+            person who loves to explore new skills and meet new people. I live near Bath and am looking for
+            opportunities - remote or local - to work with people who share my passion for creativity and problem
+            solving.
+          </p1>
+          </div>
+        </div>
       </div>
-      <div class="flex-box-about">
-            <h2>About Me</h2>
-            <p1>Hi! I'm Sophie, I'm currently taking part in the Clickstart course at Bath Spa. I have experience with
-              building websites, and I'm excited to be learning even more! I'm a creative, hardworking, and driven
-              person who loves to explore new skills and meet new people. I live near Bath and am looking for
-              opportunities - remote or local - to work with people who share my passion for creativity and problem
-              solving.
-            </p1>
-      </div>   
-    </div>
-
-    <div class="flex-experience"> 
-      <h3><a id="experience">Previous Experience</a></h3>
-      <dl>
-        <dt>Clickstart Course</dt>
-          <dd>- 8 Week Digital Skills course with Bath Spa, Bath College and Catch22. Modules included Digital Marketing,
-        SEO, UI/UX design and Web Development.</dd><br>
-        <dt>University of Brighton</dt>
-          <dd>- Began studying Computer Science for Games BSc in September 2023, left in January 2024 for personal reasons.
-        Looked at some elements of web development and game development, including programming with C++ and HTML.</dd><br>
-        <dt>Barnardo's Volunteering</dt>
-          <dd>- During my free time, I volunteer at my local charity shop, where I have gained experience talking to
-        customers and using a till.</dd><br>
-        <dt>Bath Rugby Bar Work</dt>
-          <dd>- Casual bartending on match days at Bath Rugby, usually work in a small team to serve customers, including
-        till work and adapting to level of demand throughout shift.</dd><br>
-      </dl>
+      <div class="row">
+        <div class="col-xl-4">
+        <div class="flex-box-contact">
+          <h2>Contact Details</h2>
+            <ul>
+              <li>Email - sophieandpolly13@gmail.com</li>
+              <li>Mobile - 07392 546512</li>
+              <li>LinkedIn - <a href="https://www.linkedin.com/in/andersonsea"><span>linkedin.com/in/andersonsea</span></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="col-xl-8">
+        <div class="flex-box-experience">
+          <h3><a id="experience">Previous Experience</a></h3>
+          <dl>
+            <dt>Clickstart Course (<i>May-Jun '24</i>)</dt>
+              <dd>- 8 Week Digital Skills course with Bath Spa, Bath College and Catch22. Modules included Digital
+              Marketing,
+              SEO, UI/UX design and Web Development.</dd><br>
+            <dt>University of Brighton (<i>Sept '23-Jan '24</i>)</dt>
+              <dd>- Began studying Computer Science for Games BSc in September 2023, left in January 2024 for personal
+              reasons.
+              Looked at some elements of web development and game development, including programming with C++ and HTML.</dd><br>
+            <dt>Work Experience, AECOM (<i>July '22</i>)</dt>
+              <dd>- A week's work experience at AECOM, learnt about infrastructure consulting, moved through each
+              department from quantity surveying, 3D modelling and project management.</dd><br>
+            <dt>Barnardo's Volunteering (<i>Mar '24-present</i>)</dt>
+              <dd>- During my free time, I volunteer at my local charity shop, where I have gained experience talking to
+              customers and using a till.</dd><br>
+            <dt>Bath Rugby Bar Work (<i>Mar '24-present</i>)</dt>
+              <dd>- Casual bartending on match days at Bath Rugby, usually work in a small team to serve customers,
+              including
+              till work and adapting to level of demand throughout shift.</dd><br>
+            <dt>Casual Warehouse, Wurlin (<i>Jul '21-Feb '24</i>)</dt>
+              <dd>- Preparing welcome packages for a major corporate client. Working as part of a small team, I helped
+              organise and prioritise the tasks amongst the group.</dd><br>
+          </dl>
+        </div>
+        </div>
+      </div>
     </div>
   </main>
   <footer>
-    <p>Footer text here</p>
+    <p>Site created 2024 for Clickstart, Bath | Sophie Anderson</p>
   </footer>
 </body>
 
