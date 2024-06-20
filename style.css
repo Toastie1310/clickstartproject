@@ -1,17 +1,27 @@
+/* Global */
 html {
   height: 100%;
   width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
+
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
+
+/* Header */
 header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
   background-color: #6e929e;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   padding-top: 5px;
   padding-left: 90px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 button {
   color: white;
@@ -20,6 +30,8 @@ button {
   border: 5px, solid, #374b52;
   border-radius: 10px;
 }
+
+/* Links */
 a:link {
   color: white;
   text-decoration: none;
@@ -30,24 +42,35 @@ a:visited {
 }
 
 main {
+  position: relative;
+  top: 110px;
   padding: 20px;
   border-right: 90px solid #374b52;
   border-left: 90px solid #374b52;
   text-align: justify;
 }
-.flex-container {
+
+/* Divisions */
+.flex-column-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
-.flex-box-image {
-  flex-basis: 30%;
-  padding: 20px;
-}
 .flex-box-about {
-  flex-basis: 70%;
+  padding: 30px;
+}
+.flex-box-experience {
+  flex-basis: 50%;
   padding: 20px;
 }
+.flex-box-contact {
+  flex-basis: 40%;
+  padding: 20px;
+}
+.index-list {
+  min-height: 370px;
+}
+
 p3 {
   color: black;
   font-size: 14px;
@@ -70,9 +93,6 @@ h2 {
 p1 {
   font-size: 18px;
 }
-.flex-experience {
-  padding-left: 20px;
-}
 dt {
   font-weight: bold;
   font-size: 16px;
@@ -81,9 +101,26 @@ dt {
 dd {
   font-size: 14px;
 }
-
+i {
+  font-size: 14px;
+}
+li {
+  font-size: 20px;
+  color: #374b52;
+  font-weight: bold;
+  margin-bottom: 6px;
+  text-align: left;
+}
+span {
+  color: #374b52;
+}
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #6e929e;
   padding: 5px;
   color: white;
+  text-align: center;
+  font-size: 11
 }
