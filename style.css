@@ -45,8 +45,8 @@ main {
   position: relative;
   top: 110px;
   padding: 20px;
-  border-right: 90px solid #374b52;
-  border-left: 90px solid #374b52;
+  border-right: 70px solid #374b52;
+  border-left: 70px solid #374b52;
   text-align: justify;
 }
 
