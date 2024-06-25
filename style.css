@@ -45,6 +45,7 @@ main {
   position: relative;
   top: 110px;
   padding: 20px;
+  min-height: 600px;
   border-right: 70px solid #374b52;
   border-left: 70px solid #374b52;
   text-align: justify;
